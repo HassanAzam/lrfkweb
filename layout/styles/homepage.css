@@ -37,9 +37,9 @@ File: Homepage CSS
 
 #twitter{display:block; width:900px; height:86px; margin:0 0 30px 0; padding:10px; clear:both; background:url("images/twitter_bg.gif") top left no-repeat;}
 #container #twitter a{color:#2DCDFF; background-color:#00112B;}
-#twitter .fl_left{display:block; float:left; width:94px; height:61px; margin:0; padding:25px 10px 0 44px; background:url("images/twitter_logo.gif") 0 14px no-repeat; border-right:2px solid #FFFFFF; text-align:center;}
+#twitter .fl_left{display:block; float:left; width:94px; height:61px; margin:0; padding:10px 10px 0 10px; /*background:url("images/twitter_logo.gif") 0 14px no-repeat;*/ border-right:2px solid #FFFFFF; text-align:center;}
 #twitter .fl_left a{text-transform:uppercase;}
-#twitter .fl_right{display:block; float:right; width:730px; height:60px; margin:0; padding:26px 0 0 0; font-size:14px; font-weight:bold; line-height:1.4em; color:#FFFFFF; background-color:#00112B;}
+#twitter .fl_right{display:block; float:right; width:730px; height:60px; margin:0; padding:10px 0 0 0; font-size:14px; font-weight:bold; line-height:1.4em; color:#FFFFFF; background-color:#00112B;}
 
 /* ----------------------------------------------Academic link Block------------------------------------- */
 
