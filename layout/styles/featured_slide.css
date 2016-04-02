@@ -16,6 +16,7 @@ File: Featured Slide CSS
 
 #featured_content, .featured_box, .featured_box img{display:block; width:950px; height:250px; overflow:hidden;}
 .featured_box, .featured_box img{position:relative;}
+.featured_box img{width:500px;}
 
 /* ----------------------------------------------Content------------------------------------- */
 
