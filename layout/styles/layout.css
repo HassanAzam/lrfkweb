@@ -128,3 +128,234 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 #copyright{padding:0 12px;}
 #copyright p{margin:0; padding:0;}
 #copyright, #copyright a{color:#55ABDA; background-color:#06213F;}
+
+/* ---------------------------------------------- Contact us sytles --------------------------- */
+#pu1229-4
+{
+	width: 0.01px;
+	margin-left: 100px;
+	margin-top: 68px;
+}
+
+#u1229-4
+{
+	z-index: 112;
+	width: 770px;
+	min-height: 67px;
+	background-color: transparent;
+	line-height: 48px;
+	font-size: 40px;
+	text-align: center;
+	font-family: raleway, sans-serif;
+	font-weight: 700;
+	position: relative;
+	margin-right: -10000px;
+	left: 100px;
+}
+
+#u290,#u290-4,#u354,#u690,#u844,#u892,#u848,#u909,#u952,#u1229
+{
+	color: #151515;
+	z-index: 112;
+	width: 770px;
+	min-height: 67px;
+	display: inline;
+	background-color: transparent;
+	line-height: 48px;
+	font-size: 40px;
+	text-align: center;
+	font-weight: 700;
+	position: relative;
+	margin-right: -10000px;
+	left: 110px;
+}
+
+#pu1231-4
+{
+	width: 0.01px;
+	margin-left: 250px;
+	margin-top: 67px;
+}
+
+#u1231-4
+{
+	z-index: 699;
+	display: block;
+	vertical-align: top;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u1239-4
+{
+	z-index: 707;
+	display: block;
+	vertical-align: top;
+	position: relative;
+	margin-right: -10000px;
+	left: 300px;
+}
+
+#u1244-4
+{
+	z-index: 711;
+	display: block;
+	vertical-align: top;
+	position: relative;
+	margin-right: -10000px;
+	left: 600px;
+}
+
+.grpelem /* a child element of a group */
+{
+	display: inline;
+	float: left;
+	margin-left: 125px;
+}
+
+.para
+{
+	margin: 0;
+	padding: 0;
+	border-width: 0;
+	-webkit-transform-origin: left top;
+	-ms-transform-origin: left top;
+	-o-transform-origin: left top;
+	transform-origin: left top;
+}
+
+.clearfix:after /* force a container to fit around floated items */
+{
+	content: "\0020";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+*:first-child+html .clearfix /* IE7 */
+{
+	zoom: 1;
+}
+
+.colelem /* a child element of a column */
+{
+	display: inline;
+	float: left;
+	clear: both;
+	margin-right:50px;
+}
+
+#u1232-4
+{
+	z-index: 715;
+	width: 270px;
+	min-height: 37px;
+	background-color: transparent;
+	line-height: 29px;
+	font-size: 24px;
+	color: #0184CC;
+	/*text-align: center;*/
+	font-family: raleway, sans-serif;
+	font-weight: 700;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u1238-4
+{
+	z-index: 719;
+	width: 270px;
+	min-height: 37px;
+	background-color: transparent;
+	line-height: 29px;
+	font-size: 24px;
+	color: #0184CC;
+	/*text-align: center;*/
+	font-family: raleway, sans-serif;
+	font-weight: 700;
+	position: relative;
+	margin-right: -10000px;
+	left: 300px;
+}
+
+#u1245-4
+{
+	z-index: 723;
+	width: 270px;
+	min-height: 37px;
+	background-color: transparent;
+	line-height: 29px;
+	font-size: 24px;
+	color: #0184CC;
+	/*text-align: center;*/
+	font-family: raleway, sans-serif;
+	font-weight: 700;
+	position: relative;
+	margin-right: -10000px;
+	left: 600px;
+}
+
+#u1234-4
+{
+	z-index: 727;
+	width: 270px;
+	min-height: 37px;
+	background-color: transparent;
+	font-size: 14px;
+	color: #151515;
+	/*text-align: center;*/
+	font-family: open-sans, sans-serif;
+	font-weight: 400;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u1240-4
+{
+	z-index: 731;
+	width: 270px;
+	min-height: 37px;
+	background-color: transparent;
+	font-size: 14px;
+	color: #151515;
+	/*text-align: center;*/
+	font-family: open-sans, sans-serif;
+	font-weight: 400;
+	position: relative;
+	margin-right: -10000px;
+	left: 300px;
+}
+
+#u1246-4
+{
+	z-index: 735;
+	width: 270px;
+	min-height: 37px;
+	background-color: transparent;
+	font-size: 14px;
+	color: #151515;
+	/*text-align: center;*/
+	font-family: open-sans, sans-serif;
+	font-weight: 400;
+	position: relative;
+	margin-right: -10000px;
+	left: 600px;
+}
+
+#u1247
+{
+	z-index: 739;
+	min-height: 400px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+}
+
+#u1247-bw
+{
+	z-index: 739;
+	min-height: 400px;
+	margin-top: 57px;
+	height: 400px;
+}
