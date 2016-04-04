@@ -380,7 +380,7 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 {
 	background-color:#fff;
 	width:270px;
-	/*height:200px;*/
+	height:300px;
 	padding:10px;
 	margin:0 0 10px 10px;
 }
@@ -404,6 +404,23 @@ img.image_circle
 	height:25px;
 	color:#fff;
 	
+}
+
+.social_icons
+{
+	margin-left:85px;
+}
+
+.social_icons i{
+	padding:10px;	
+	border:1px solid #06213f;
+	height:10px;
+	width:10px;
+}
+
+.social_icons i:hover{
+	color:#fff;
+	background-color:#333;
 }
 
 .center{
