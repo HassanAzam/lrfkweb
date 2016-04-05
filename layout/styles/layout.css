@@ -387,6 +387,8 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 }
 
 
+
+
 img.image_circle
 {
 	width:150px;
@@ -399,12 +401,12 @@ img.image_circle
 .member_name
 {
 	text-align:center;
-	margin:10px; 0 0 0;
+	margin:10px 0 0 0;
 	background-color:#97d4f9;
 	font-size:20px;
 	height:25px;
 	color:#fff;
-	
+	padding:5px;
 }
 
 .social_icons
