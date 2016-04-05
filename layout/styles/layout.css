@@ -383,6 +383,7 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 	height:300px;
 	padding:10px;
 	margin:0 0 10px 10px;
+	
 }
 
 
@@ -425,4 +426,29 @@ img.image_circle
 
 .center{
 	text-align:center;
+}
+
+ul#con{
+	list-style-type:none;
+	padding:0px;
+	text-align:center;
+	display:block;
+	color:#fff;
+}
+
+ul#con img{
+	
+	background-color:#fff;
+	border-radius:50%;
+}
+
+ul#con li{
+	
+	display:inline-block;
+	width:200px;
+
+	margin:0 0 0 20px;
+	
+	background-color:#151515;
+	padding:10px;
 }
