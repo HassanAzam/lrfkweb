@@ -14,6 +14,7 @@ Licence URI: http://www.os-templates.com/template-terms
 <!-- Homepage Specific Elements -->
 <script type="text/javascript" src="../layout/scripts/jquery.min.js"></script>
 <script type="text/javascript" src="../layout/scripts/jquery.ui.min.js"></script>
+<script type="text/javascript" src="../layout/scripts/mixitup-master/src/jquery.mixitup.js"></script>
 <script type="text/javascript" src="../layout/scripts/jquery.tabs.setup.js"></script>
 <!-- End Homepage Specific Elements -->
 </head>
@@ -74,31 +75,54 @@ Licence URI: http://www.os-templates.com/template-terms
 		
 		<div id="sortable_gallery">
 				
-			<ul id="filters" class="clearfix">
-				<li><span class="filter active" data-filter="app card icon logo web">All</span></li>
-				<li><span class="filter" data-filter="app">App</span></li>
-				<li><span class="filter" data-filter="card">Card</span></li>
-				<li><span class="filter" data-filter="icon">Icon</span></li>
-				<li><span class="filter" data-filter="logo">Logo</span></li>
-				<li><span class="filter" data-filter="web">Web</span></li>
-			</ul>
-			
-			<div id="portfoliolist">		
+			<ul id="filter">
+				  <li class="current"><a href="#">All</a></li>
+				  <li><a href="#">Design</a></li>
+				  <li><a href="#">Development</a></li>
+				  <li><a href="#">CMS</a></li>
+				  <li><a href="#">Integration</a></li>
+				  <li><a href="#">Information Architecture</a></li>
+			</ul>	
 				
-				<div class="portfolio logo" data-cat="logo">
-					<div class="portfolio-wrapper">				
-						<img src="img/portfolios/logo/5.jpg" alt="" />
-						<div class="label">
-							<div class="label-text">
-								<a class="text-title">Bird Document</a>
-								<span class="text-category">Logo</span>
-							</div>
-							<div class="label-bg"></div>
-						</div>
-					</div>
-				</div>			
-	
-			</div>
+			<ul id="portfolio">
+			
+				  <li class="cms integration">
+					<a href="#"><img src="images/a-list-apart.png" alt="" height="115" width="200" />A List Apart</a>
+				  </li>
+				  <li class="integration design">
+					<a href="#"><img src="images/apple.png" alt="" height="115" width="200" />Apple</a>
+				  </li>
+				  <li class="design development">
+					<a href="#"><img src="images/cnn.png" alt="" height="115" width="200" />CNN</a>
+				  </li>
+				  <li class="cms">
+					<a href="#"><img src="images/digg.png" alt="" height="115" width="200" />Digg</a>
+				  </li>
+				  <li class="design cms integration">
+					<a href="#"><img src="images/espn.png" alt="" height="115" width="200" />ESPN</a>
+				  </li>
+				  <li class="design integration">
+					<a href="#"><img src="images/facebook.png" alt="" height="115" width="200" />Facebook</a>
+				  </li>
+				  <li class="cms information-architecture">
+					<a href="#"><img src="images/google.png" alt="" height="115" width="200" />Google</a>
+				  </li>
+				  <li class="integration development">
+					<a href="#"><img src="images/netflix.png" alt="" height="115" width="200" />Netflix</a>
+				  </li>
+				  <li class="information-architecture">
+					<a href="#"><img src="images/nettuts.png" alt="" height="115" width="200" />NETTUTS</a>
+				  </li>
+				  <li class="design information-architecture cms">
+					<a href="#"><img src="images/twitter.png" alt="" height="115" width="200" />Twitter</a>
+				  </li>
+				  <li class="development">
+					<a href="#"><img src="images/white-house.png" alt="" height="115" width="200" />White House</a>
+				  </li>
+				  <li class="cms design">
+					<a href="#"><img src="images/youtube.png" alt="" height="115" width="200" />YouTube</a>
+				  </li>
+			</ul>
 			
 		</div>
 		
@@ -126,27 +150,7 @@ Licence URI: http://www.os-templates.com/template-terms
         Email: <a href="#">khurram.ned@gmail.com</a>
         </address>
       </div>
-      <div class="fl_right">
-        <div id="social" class="clear">
-          <p>Stay Up to Date With Whats Happening</p>
-          <ul>
-            <li><a style="background-position:0 0;" href="#">Twitter</a></li>
-            <li><a style="background-position:-72px 0;" href="#">LinkedIn</a></li>
-            <li><a style="background-position:-142px 0;" href="#">Facebook</a></li>
-            <li><a style="background-position:-212px 0;" href="#">Flickr</a></li>
-            <li><a style="background-position:-282px 0;" href="#">RSS</a></li>
-          </ul>
-        </div>
-        <div id="newsletter">
-          <form action="#" method="post">
-            <fieldset>
-              <legend>Subscribe To Our Newsletter:</legend>
-              <input type="text" value="Enter Email Here&hellip;" onfocus="this.value=(this.value=='Enter Email Here&hellip;')? '' : this.value ;" />
-              <input type="text" id="subscribe" value="Submit" />
-            </fieldset>
-          </form>
-        </div>
-      </div>
+      
       <!-- ####################################################################################################### -->
     </div>
   </div>
@@ -158,5 +162,33 @@ Licence URI: http://www.os-templates.com/template-terms
     <p class="fl_right"></a></p>
   </div>
 </div>
+
+	<script>
+		
+$(document).ready(function() {
+  $('ul#filter a').click(function() {
+    $(this).css('outline','none');
+    $('ul#filter .current').removeClass('current');
+    $(this).parent().addClass('current');
+    
+    var filterVal = $(this).text().toLowerCase().replace(' ','-');
+        
+    if(filterVal == 'all') {
+      $('ul#portfolio li.hidden').fadeIn('slow').removeClass('hidden');
+    } else {
+      $('ul#portfolio li').each(function() {
+        if(!$(this).hasClass(filterVal)) {
+          $(this).fadeOut('normal').addClass('hidden');
+        } else {
+          $(this).fadeIn('slow').removeClass('hidden');
+        }
+      });
+    }
+    
+    return false;
+  });
+});
+
+	</script>
 </body>
 </html>
