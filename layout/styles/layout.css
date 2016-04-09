@@ -383,6 +383,8 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 	height:300px;
 	padding:10px;
 	margin:0 0 10px 10px;
+	float:left;
+	position:relative;
 	
 }
 
@@ -497,6 +499,46 @@ ul#portfolio img { border: 1px solid #dedede; display: block; padding-bottom: 5p
 ul#portfolio li { margin-right: 5px; }
 
 
+.pic_transform {
+        transition-duration: 0.5s;            
+        -webkit-transition-duration: 0.5s; 
+        -moz-transition-duration: 0.5s;    
+        -o-transition-duration: 0.5s;
+         overflow: hidden;
+         height: 0px;
+		 position:absolute;
+		 background-color:#000;
+		 
+                         }
+						 
+.team_box:hover .pic_transform
+{
+	height:250px;
+	opacity:0.7;
+	width:85%;
+	padding:10px;
+}
+
+.text_display {
+        transform-origin: top;               
+        transition-duration: 0.5s;               
+        -webkit-transform-origin: top;       
+        -webkit-transition-duration: 0.5s;   
+        -moz-transform-origin: top;           
+        -moz-transition-duration: 0.5s;       
+        -o-transform-origin: top;    
+        -o-transition-duration: 0.5s;
+        font-size: 16px;
+        font-family: Arial;       
+        font-weight: normal;
+        text-align:center;
+        color: #FFF;       
+}
+#team_box:hover .text_display {
+         background: rgba(0, 0, 0, 0.5);   
+         color: #fff;   
+         
+}
 
 
 
