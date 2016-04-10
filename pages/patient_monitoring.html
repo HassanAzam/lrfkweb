@@ -90,30 +90,23 @@ Licence URI: http://www.os-templates.com/template-terms
 	  
 	  <section id="nino-services" style="background: #fff; color:#000;">
 		<div class="container" id="project-desc">
-			<h3 class="nino-sectionHeading">SMART SAFETY VEST DESIGN FOR WAREHOUSE WORKERS</h3>
-			<div class="nino-sectionDesc"><h3 style="text-align:justify;">The project aims to make warehouses a more safe place to 
-			work by preventing accidents and injuries caused by automated machinery or carrier vehicles. Two gadgets have been developed for 
-			this to accomplish this feat.
+			<h3 class="nino-sectionHeading">PATIENT MONITORING SYSTEM</h3>
+			<div class="nino-sectionDesc"><h3 style="text-align:justify;">Pulse oximetery refers to a non-invasive method of monitoring a persons blood oxygenation level. Most common oximeters use different absorption characteristics of light at different wavelengths to measure blood oxygen level and heart rate. We have implemented a low-cost, low-power, high-speed and reliable oximeter design. Our oximeter differs from prevailing technology in one very important respect. We took inspiration from Internet of Things (IoT) technology and thus designed centralized oximeter to be a connected device. Oximeter is equipped with Bluetooth low-energy (BLE) technology which allows for connected device operation in an integrated environment.
 			 </h3></div>
 			
 			<div class="nino-sectionContent">
 				<div class="row">
         		<div class="col-md-6">
             	<div class="imgAbt left">
-					<div class="wow slideInLeft"><br>
-                	 <img width="350px" height="250px" src="../images/warehouse/1.jpg" />
+					<div class="wow slideInLeft">
+                	 <img width="350px" height="250px" src="../images/patient/1.jpg" />
 					</div>
             		 </div>
         			 </div>
         		<div class="wow slideInRight">
 				<div class="paraAbt right">
-            		  <p style="font-size:larger;text-align:justify;">Vehicle device refers to the gadget which will be mounted on 
-					  the vehicle or machinery. </br>
-						This device is powered directly by the vehicle's power supply and is not battery operated. 
-						The device waits in receiver mode listening to ranging requests initiated by the Worker's Device 
-						(to be defined below), once the request has been received range is computed on vehicle's device and if it is 
-						less than the configured critical range (programmable via USB) the device sounds a buzzer and generates 
-						a voltage signal which can be used to bring the vehicle to a halt.</p>
+            		  <p style="font-size:larger;text-align:justify;">While providing all the features a conventional pulse oximeter does, our oximeter integrates a host of innovative features. Oximeter can send real-time patient monitoring data e.g. Oxygen level and heart rate to a central hub which then analyzes the data and takes appropriate actions such as alerting a health care personnel in case a patients readings drops below a certain threshold value.
+					  </p>
         			</div>
 					</div>
     			  </div>
@@ -122,18 +115,14 @@ Licence URI: http://www.os-templates.com/template-terms
 			<div class="nino-sectionContent">
 				<div class="row">
         		<div class="col-md-6 wow slideInRight">
-            	<div class="imgAbt right"><br><br>
-                	 <img width="350px" height="250px" src="../images/warehouse/2.jpg" />
+            	<div class="imgAbt right"> 
+                	 <img width="350px" height="250px" src="../images/patient/2.png" />
             		 </div>
         			 </div>
         		<div class="col-md-6 wow wow slideInLeft">
 				<div class="paraAbt left">
-            		  <p style="font-size:larger;text-align:justify;">Workers device refers to the gadget can be placed inside the 
-					  workers vest or mounted on jacket. This device is battery powered. Under non-emergency circumstances the device 
-					  listens to long range radio requests from fellow workers and if such a request is received it periodically sounds a 
-					  buzzer along with flashing an LED. Once the emergency rope is pulled, the device immediately sends out a ranging 
-					  initialization request to Vehicle device, turns off the long range radio receiver and starts sending a help message 
-					  over long range radio to other worker devices so that other works may be alerted of the situation and can come to help.</p>
+            		  <p style="font-size:larger;text-align:justify;">Our oximeter considerably reduces the time required to continuous monitoring since health care person doesnot have to go to patients room to take the readings. Instead real time data is always available on central hub. Doctors can utilize this time in performing other tasks. The data can also be stored in a database for detailed analysis and can also serve as data repository for medical research.
+					  </p>
         			</div>
 					</div>
     			  </div>
@@ -144,14 +133,13 @@ Licence URI: http://www.os-templates.com/template-terms
 				  <div class="row">
         		<div class="col-md-6 wow slideInRight">
             	<div class="imgAbt left">
-                	 <img width="350px" height="250px" src="../images/warehouse/3.jpg" />
+                	 <img width="350px" height="250px" src="../images/patient/3.png" />
             		 </div>
         			 </div>
         		<div class="col-md-6 wow slideInLeft">
 				<div class="paraAbt right">
-            		  <p style="font-size:larger;text-align:justify;"><br><br>
-					Worker device includes features; it starts ranging immediately Once the emergency rope is pulled, it can 
-					alert workers within 200 meter radius by sending a message. It is battery operated, with long battery life.
+            		  <p style="font-size:larger;text-align:justify;"><br>
+					The first working prototype was implemented in the year 2014. It had all the essential features described so far. We noticed some connectivity issues with Bluetooth and processor overloading in some cases. Apart from these issues, prototype worked as expected and gave consistent and repeatable results.
 					  </p>
 					  </div>
         			</div>
@@ -162,21 +150,22 @@ Licence URI: http://www.os-templates.com/template-terms
 				    <div class="row">
         		<div class="col-md-6 wow slideInLeft">
             	<div class="imgAbt right">
-                	 <img width="350px" height="300px" src="../images/warehouse/4.jpg" />
+                	 <img width="350px" height="300px" src="../images/patient/4.png" />
             		 </div>
         			 </div>
         		<div class="col-md-6 wow slideInRight">
 				<div class="paraAbt left">
-            		  <p style="font-size:larger;text-align:justify;"><br><br>
-					  Vehicle device includes features; It continuously monitors for alerts by workers, the ranging device can 
-					  bring any hazardous machinery to halt – within 5ms, range can be reconfigurable via USB connection, it 
-					  includes a buzzer to alert the operator about emergency
+            		  <p style="font-size:larger;text-align:justify;"><br>
+					  Work on second prototype began soon afterwards. The goal of second prototype was to fix Bluetooth connectivity issues and improve controller performance while not compromising on power consumption and repeatability. We solved the connectivity problem by implementing the then-latest version of Bluetooth, namely, Bluetooth 4.0 in our project which introduces significant improvements in connectivity and pairing .
 
 					  </p>
 					  </div>
         			</div>
     			  </div>
 				<br><br>  
+				
+				 <div class="sep"></div>
+
 				  
 			</div>
 		</div>
@@ -276,7 +265,10 @@ Licence URI: http://www.os-templates.com/template-terms
 		  <div class="nino-sectionDesc">
 			
 			<div class="row">
-			<h4>No Video is uploaded yet</h4>
+			<video width="310" height="240" controls >
+				<source src="http://kfrlab.com/smart_agriculture/data2/images/agrivid.mp4" type="video/mp4">
+				</video>
+
 
           </div>
           </div>
