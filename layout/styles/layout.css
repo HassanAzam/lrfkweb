@@ -540,7 +540,18 @@ ul#portfolio li { margin-right: 5px; }
          
 }
 
+img.pics
+{
+	width:290px;
+	height:200px;
+	
+	margin:5px;
+	cursor:pointer;
+}
 
+img.pics:hover{
+	border:3px solid #97d4f9;
+}
 
 
 			

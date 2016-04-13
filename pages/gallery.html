@@ -10,9 +10,11 @@ Licence URI: http://www.os-templates.com/template-terms
 <head>
 <title>KFRL - Koshish Foundation Research Lab</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="../layout/styles/glisse.css" />
 <link rel="stylesheet" href="../layout/styles/layout.css" type="text/css" />
 <!-- Homepage Specific Elements -->
 <script type="text/javascript" src="../layout/scripts/jquery.min.js"></script>
+<script src="../layout/scripts/glisse.js"></script>
 <script type="text/javascript" src="../layout/scripts/jquery.ui.min.js"></script>
 
 <!-- End Homepage Specific Elements -->
@@ -53,11 +55,11 @@ Licence URI: http://www.os-templates.com/template-terms
     <!-- ###### -->
     <div id="topnav">
       <ul>
-        <li class="active"><a href="index.html">HOME</a></li>
-        <li><a href="pages/projects.html">PROJECTS</a></li>
-        <li><a href="pages/ourteam.html">WORKSHOPS</a></li>
-		<li><a href="pages/ourteam.html">OUR TEAM</a></li>
-        <li><a href="pages/contactus.html">CONTACT US</a></li>
+        <li class="active"><a href="../index.html">HOME</a></li>
+        <li><a href="projects.html">PROJECTS</a></li>
+        <li><a href="ourteam.html">WORKSHOPS</a></li>
+		<li><a href="workshops.html">OUR TEAM</a></li>
+        <li><a href="contactus.html">CONTACT US</a></li>
         
       </ul>
     </div>
@@ -73,8 +75,21 @@ Licence URI: http://www.os-templates.com/template-terms
 	<div id="container" class="clear">
 		<h1>Gallery</h1>
 		
+		<img class="pics" src="../images/gallery/ev1.jpg" data-glisse-big="../images/gallery/ev1.jpg"/>
+		<img class="pics" src="../images/gallery/ev2.jpg" data-glisse-big="../images/gallery/ev2.jpg"/>
+		<img class="pics" src="../images/gallery/ev3.jpg" data-glisse-big="../images/gallery/ev3.jpg"/>
+		<img class="pics" src="../images/gallery/ev4.jpg" data-glisse-big="../images/gallery/ev4.jpg"/>
+		<img class="pics" src="../images/gallery/ev5.jpg" data-glisse-big="../images/gallery/ev5.jpg"/>
+		<img class="pics" src="../images/gallery/ev6.png" rel="group1" title="Workshop on Embedded Systems" data-glisse-big="../images/gallery/ev6.png"/>
+		<img class="pics" src="../images/gallery/ev7.png" data-glisse-big="../images/gallery/ev7.png"/>		
 		
 		
+		<img class="pics" src="../images/gallery/sir.jpg"  rel="group1" data-glisse-big="../images/gallery/sir.jpg" title="Muhammad Khurram - Head Of Teams" />
+		<img class="pics" src="../images/gallery/team.jpg" rel="group1" title="KFRL Team" data-glisse-big="../images/gallery/team.jpg"/>
+		<img class="pics" src="../images/gallery/ra.jpg" rel="group1" title="Sir Khurram with Research Assistants" data-glisse-big="../images/gallery/ra.jpg"/>
+		<img class="pics" src="../images/gallery/rs.jpg" rel="group1" title="Sir Khurram with Research Students" data-glisse-big="../images/gallery/rs.jpg"/>
+		<img class="pics" src="../images/gallery/junrs.jpg" rel="group1" title="Sir Khurram with Junior Research Students" data-glisse-big="../images/gallery/junrs.jpg"/>
+		<img class="pics" src="../images/gallery/work1.jpg" data-glisse-big="../images/gallery/work1.jpg"/>
 	
 	</div>
 
@@ -136,6 +151,16 @@ $(document).ready(function() {
     
     return false;
   });
+});
+
+
+$(function () {
+    $('.pics').glisse({
+        changeSpeed: 550, 
+        speed: 500,
+        effect:'bounce',
+        fullscreen: false
+    }); 
 });
 
 	</script>
