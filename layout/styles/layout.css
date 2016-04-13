@@ -465,7 +465,7 @@ ul#filter {
   width: 100%;
 }
 ul#filter li { 
-  border-right: 1px solid #dedede;
+  
   float: left;
   line-height: 16px;
   margin-right: 10px;
@@ -485,7 +485,7 @@ ul#portfolio {
   width: 672px;
 }
 ul#portfolio li { 
-  border: 1px solid #dedede; 
+  
   float: left; 
   margin: 0 10px 10px 0; 
   padding: 5px;
@@ -494,7 +494,7 @@ ul#portfolio li {
 
 ul#portfolio a { display: block; width: 100%; }
 ul#portfolio a:hover { text-decoration: none; }
-ul#portfolio img { border: 1px solid #dedede; display: block; padding-bottom: 5px; }
+ul#portfolio img {  display: block; padding-bottom: 5px; }
 
 ul#portfolio li { margin-right: 5px; }
 
